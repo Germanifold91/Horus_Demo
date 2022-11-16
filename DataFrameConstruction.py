@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 from faker import Faker
 
+
+#Construccion de Data Frame empleados dimensiones usando informacion generada aleatoriamente 
+
 n_rows = 100
 columns_df = ['Cedula', 'Primer_Nombre', 'Apellido', 'Genero', 'Fecha_Nacimiento', 'Municipio', 'Cargo', 'Fecha_Contratacion']
 
